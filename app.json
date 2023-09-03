@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "UoslifeCloneCoding",
+    "slug": "UoslifeCloneCoding",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "UoslifeCloneCoding"
+}
