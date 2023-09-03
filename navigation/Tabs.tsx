@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import Community from "../screens/Community";
+import Community from "../screens/Community/Community";
 import School from "../screens/School";
 import Schedule from "../screens/Schedule";
 import Notification from "../screens/Notification";
