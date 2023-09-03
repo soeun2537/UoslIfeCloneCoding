@@ -1,6 +1,5 @@
 import styled from "styled-components/native";
 import { Ionicons } from "@expo/vector-icons";
-import { Text } from "react-native";
 
 const Btn = styled.TouchableOpacity`
   flex: 1;
@@ -8,6 +7,11 @@ const Btn = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
   background-color: white;
+`;
+
+const BtnText = styled.Text`
+  font-weight: 400;
+  letter-spacing: -0.2;
 `;
 
 export default function CommunityBtn({ name, color, text }) {
@@ -19,7 +23,7 @@ export default function CommunityBtn({ name, color, text }) {
         color={color}
         style={{ marginBottom: 5 }}
       />
-      <Text>{text}</Text>
+      <BtnText>{text}</BtnText>
     </Btn>
   );
 }
