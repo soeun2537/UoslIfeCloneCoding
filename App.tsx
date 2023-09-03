@@ -2,7 +2,8 @@ import { useState } from "react";
 import AppLoading from "expo-app-loading";
 import { Ionicons } from "@expo/vector-icons";
 import * as Font from "expo-font";
-import { Text } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import Tabs from "./navigation/Tabs";
 
 export default function App() {
   const [ready, setReady] = useState(false);
@@ -21,5 +22,9 @@ export default function App() {
       />
     );
   }
-  return <Text>good</Text>;
+  return (
+      <NavigationContainer>
+        <Tabs />
+      </NavigationContainer>
+  );
 }
