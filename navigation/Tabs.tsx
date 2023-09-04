@@ -1,9 +1,9 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Community from "../screens/Community/Community";
-import School from "../screens/School";
-import Schedule from "../screens/Schedule";
-import Notification from "../screens/Notification";
-import Mypage from "../screens/Mypage";
+import School from "../screens/School/School";
+import Schedule from "../screens/Schedule/Schedule";
+import Notification from "../screens/Notification/Notification";
+import Mypage from "../screens/Mypage/Mypage";
 import { Ionicons } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();

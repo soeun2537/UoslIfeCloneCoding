@@ -7,3 +7,4 @@ const Mypage = () => (
   </View>
 );
 export default Mypage;
+
